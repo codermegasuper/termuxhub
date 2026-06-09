@@ -100,3 +100,17 @@ border-left:4px solid #00ff66;
 border-radius:10px;
 }
 
+canvas{
+position:fixed;
+top:0;
+left:0;
+z-index:-1;
+}
+
+body{
+margin:0;
+background:black;
+overflow-x:hidden;
+color:#00ff66;
+font-family:Arial;
+}
