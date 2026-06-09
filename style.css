@@ -91,13 +91,15 @@ margin-bottom:25px;
 font-size:35px;
 }
 
-.lesson{
-max-width:700px;
-margin:15px auto;
+.lessons{
+width:100%;
+max-width:600px;
+margin:0 auto;
 padding:20px;
-background:#111;
-border-left:4px solid #00ff66;
-border-radius:10px;
+
+display:flex;
+flex-direction:column;
+gap:12px;
 }
 
 canvas{
