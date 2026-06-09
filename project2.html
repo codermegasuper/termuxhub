@@ -1,16 +1,34 @@
-<h1>⚙️ Проект 2 — Мини сайт</h1>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Проект 2</title>
+<link rel="stylesheet" href="style.css">
+</head>
 
-<p>
-Ты создашь свой первый веб-сайт прямо в Termux.
-</p>
+<body>
 
-<h3>📦 Установка сервера:</h3>
-<pre>pkg install python</pre>
+<canvas id="matrix"></canvas>
 
-<h3>🚀 Запуск сайта:</h3>
+<div class="container">
+
+<a class="back" href="index.html">← Назад</a>
+
+<div class="box">
+
+<h1>⚙️ Проект 2 — Локальный сайт</h1>
+
+<p>Создание сайта прямо в Termux.</p>
+
+<h3>📦 Запуск сервера:</h3>
 <pre>python -m http.server 8000</pre>
 
 <h3>🌐 Открытие:</h3>
-<p>http://localhost:8000</p>
+<pre>http://localhost:8000</pre>
 
-<p>Теперь у тебя локальный сайт на телефоне.</p>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
