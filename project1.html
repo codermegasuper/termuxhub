@@ -1,15 +1,24 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Проект 1</title>
-</head>
-<body style="background:black;color:#00ff66;font-family:Arial;">
+<h1>🚀 Проект 1 — Telegram бот</h1>
 
-<h1>🚀 Telegram бот</h1>
+<p>
+Здесь ты создашь своего первого бота.
+</p>
 
-<p>Это пример проекта TermuxHub</p>
+<h3>📦 Установка библиотеки:</h3>
+<pre>pip install pyTelegramBotAPI</pre>
 
-<a href="index.html">← Назад</a>
+<h3>💡 Идея:</h3>
+<p>Бот отвечает на сообщения и выполняет команды.</p>
 
-</body>
-</html>
+<h3>🔥 Пример:</h3>
+<pre>
+import telebot
+
+bot = telebot.TeleBot("TOKEN")
+
+@bot.message_handler(func=lambda m: True)
+def echo(m):
+    bot.reply_to(m, m.text)
+
+bot.polling()
+</pre>
