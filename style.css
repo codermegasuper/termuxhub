@@ -163,13 +163,65 @@ margin:auto;
 padding:20px;
 }
 
+/* ===== ONLY LESSONS + PROJECTS FIX ===== */
+
+.container{
+display:flex;
+justify-content:center;
+padding:20px;
+}
+
 .box{
+width:100%;
+max-width:900px;
 background:#0a0a0a;
 border:1px solid #00ff66;
-border-radius:12px;
-padding:20px;
-margin-top:20px;
-box-shadow:0 0 10px #00ff6622;
+border-radius:14px;
+
+padding:40px;
+
+box-shadow:0 0 20px #00ff6622;
+
+/* ЦЕНТР СТРАНИЦЫ */
+margin:0 auto;
+}
+
+/* БОЛЬШОЙ ТЕКСТ */
+.box h1{
+font-size:36px;
+text-align:center;
+}
+
+.box p{
+font-size:20px;
+line-height:1.7;
+text-align:center;
+}
+
+.box h3{
+font-size:24px;
+text-align:center;
+}
+
+/* КОД */
+.box pre{
+font-size:18px;
+padding:14px;
+border-radius:10px;
+background:#111;
+overflow-x:auto;
+}
+
+/* СПИСКИ */
+.box ul{
+list-style:none;
+padding:0;
+text-align:center;
+}
+
+.box li{
+font-size:18px;
+margin:5px 0;
 }
 
 h1{
